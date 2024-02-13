@@ -11,7 +11,7 @@ const usePokemonSearch = () => {
     try {
       setLoading(true);
       const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${searchQuery.toLowerCase()}`);
-      setSearchResults([response.data]);
+      setSearchResults(prevResults => [...prevResults, response.data]);
       setLoading(false);
       setError(null);
     } catch (error) {
