@@ -1,0 +1,1 @@
+export const RUBIK_REGULAR = 'Rubik-Regular';

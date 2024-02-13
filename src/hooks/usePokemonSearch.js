@@ -1,5 +1,3 @@
-// hooks/usePokemonSearch.js
-
 import { useState } from 'react';
 import axios from 'axios';
 

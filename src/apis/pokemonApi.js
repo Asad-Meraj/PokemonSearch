@@ -1,5 +1,3 @@
-// apis/pokemonApi.js
-
 import axios from 'axios';
 
 const fetchPokemon = async (searchQuery) => {

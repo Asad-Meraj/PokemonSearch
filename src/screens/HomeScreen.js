@@ -1,11 +1,10 @@
-// screens/HomeScreen.js
-
 import React, { useState } from 'react';
-import { View, Text, FlatList, Modal, ActivityIndicator } from 'react-native';
+import { View, Text, FlatList, Modal, ActivityIndicator, StyleSheet } from 'react-native';
 import SearchBar from '../components/SearchBar';
 import PokemonListItem from '../components/PokemonListItem';
 import PokemonDetailModal from '../components/PokemonDetailModal';
 import usePokemonSearch from '../hooks/usePokemonSearch';
+import { appColor } from '../constants/colors';
 
 const HomeScreen = () => {
   const {
@@ -32,7 +31,7 @@ const HomeScreen = () => {
   
 
   return (
-    <View>
+    <View style={styles.container} >
       <SearchBar
         value={searchQuery}
         onChangeText={setSearchQuery}
@@ -58,5 +57,12 @@ const HomeScreen = () => {
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: appColor,
+  },
+});
 
 export default HomeScreen;
