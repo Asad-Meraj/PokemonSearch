@@ -23,8 +23,8 @@ const HomeScreen = () => {
     <PokemonListItem
       name={item.name}
       onPress={() => {
-        setSelectedPokemon(item); // Set the selected Pokémon
-        setModalVisible(true); // Show the modal
+        setSelectedPokemon(item); 
+        setModalVisible(true); 
       }}
     />
   );

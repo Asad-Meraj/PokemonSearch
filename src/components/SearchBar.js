@@ -22,21 +22,21 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 20,
     marginTop: 20,
-    paddingHorizontal: 10, // Add padding to the container
+    paddingHorizontal: 10, 
   },
   input: {
-    flex: 1, // Take up remaining space in the container
-    height: 40, // Set the height of the input
+    flex: 1, 
+    height: 40, 
     borderWidth: 1,
     borderColor: '#ccc',
     padding: 10,
-    borderRadius: 5, // Add border radius for rounded corners
-    marginRight: 10, // Add some spacing between input and button
+    borderRadius: 5, 
+    marginRight: 10, 
   },
   searchButton: {
-    paddingHorizontal: 20, // Add horizontal padding
-    paddingVertical: 10, // Add vertical padding
-    borderRadius: 5, // Add border radius for rounded corners
+    paddingHorizontal: 20, 
+    paddingVertical: 10, 
+    borderRadius: 5, 
   },
 });
 

@@ -15,9 +15,9 @@ const styles = StyleSheet.create({
     fontFamily: RUBIK_REGULAR,
     marginBottom: 10,
     color: BLACK,
-    marginLeft: 10, // Add some left margin to push the text away from the left edge
-    marginRight: 10, // Add some right margin for better spacing
-    textAlign: 'center', // Center-align the text within its container
+    marginLeft: 10, 
+    marginRight: 10, 
+    textAlign: 'center', 
 }
 });
 
